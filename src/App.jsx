@@ -23,7 +23,6 @@ import { Grid } from '@mui/material';
 import { Card } from '@mui/material';
 import { CardContent } from '@mui/material';
 import Logo from "../src/assets/Logo.svg"
-import TopImage from "../src/assets/TopImage.svg"
 import OrderHistory from './Pages/OrderHistory/orderHistory';
 import Notification from './Pages/Notifications/notification';
 import Dashboard from './Pages/Dashboard/dashboard';
@@ -98,7 +97,7 @@ function App() {
           )}
 
           </Grid>
-          <Grid item lg={8} sx={{ display: { xs: 'none', sm: 'none' } }} className='welcome_grid'></Grid>
+          <Grid item lg={8} sx={{ display: { lg: 'block', md: 'block', xs: 'none', sm: 'none' } }} className='welcome_grid'></Grid>
         </Grid>
         <Grid container>
           <Grid className='sidebar_grid' lg={1.5} md={1} sm={1.5} xs={2}>

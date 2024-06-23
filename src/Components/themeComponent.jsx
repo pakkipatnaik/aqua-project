@@ -2,6 +2,10 @@ import React, { useState, createContext } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import GlobalStyles from '@mui/material/GlobalStyles';
+import LightBackground from "../../public/Light_Background.svg";
+import Background from "../../public/background.svg";
+import TopImage from "../../public/TopImage.svg";
+import LightTopImage from "../../public/Light_TopImage.svg"
 
 const ThemeContext = createContext();
 
@@ -46,8 +50,8 @@ const ThemeProviderComponent = ({ children }) => {
                     styles={{
                         body: {
                             backgroundImage: theme.palette.mode === 'light'
-                                ? 'url(../../src/assets/Light_Background.svg)'
-                                : 'url(../../src/assets/background.svg)',
+                                ? `url(${LightBackground})`
+                                : `url(${Background})`,
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
                             backgroundColor: theme.palette.background.default,
@@ -71,8 +75,8 @@ const ThemeProviderComponent = ({ children }) => {
                         },
                         '.welcome_grid': {
                             backgroundImage: theme.palette.mode === 'light'
-                                ? 'url("../../src/assets/Light_TopImage.svg")'
-                                : 'url("../../src/assets/TopImage.svg")',
+                            ? `url(${LightTopImage})`
+                            : `url(${TopImage})`,
                             height: '500px',
                             position: 'absolute',
                             top: '124px',

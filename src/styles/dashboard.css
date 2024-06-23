@@ -20,10 +20,7 @@ body {
 }
 
 .search {
-    /* background-color: rgb(46, 44, 44); */
     border-radius: 10px;
-    /* border: 1px solid white; */
-    /* color: white; */
 }
 
 .search>div {
@@ -41,7 +38,6 @@ body {
 .card_grid {
     display: flex;
     justify-content: right;
-    /* margin: auto; */
 }
 
 .card {
@@ -51,7 +47,6 @@ body {
     border-radius: 10px;
     display: flex;
     align-items: center;
-    /* background-color: rgb(29 27 27 / 67%) !important; */
 }
 
 .card_content {
@@ -68,7 +63,6 @@ body {
 }
 
 .welcome_grid {
-    /* background-image: url("../assets/TopImage.svg"); */
     height: 500px;
     position: absolute;
     top: 150px;
@@ -111,7 +105,6 @@ body {
 
 
 .carousel_grid {
-    /* background-color: rgb(6 6 6); */
     opacity: 0.5;
     border-radius: 10px !important;
 }
@@ -126,7 +119,6 @@ body {
 }
 
 .custom_grid {
-    /* background-color: red !important; */
     opacity: 0.5 !important;
 }
 
@@ -136,20 +128,16 @@ body {
 }
 
 .custom-grid {
-    /* background-color: red !important; */
     opacity: 0.5 !important;
 
 }
 
 
 .card_content_right {
-    /* display: flex; */
     color: white;
-    /* justify-content: space-between; */
 }
 
 .right_grid {
-    /* background-color: rgb(6 6 6); */
     padding: 10px;
     opacity: 0.5;
     margin-left: 20px;
@@ -159,12 +147,8 @@ body {
     padding: 20px;
 }
 
-.order_tank {
-    /* color:#5353fbfc; */
-}
 
 .card_kaveri {
-    /* background-color: black !important; */
     margin-top: 20px;
     height: 100%;
     width: 100%;
@@ -186,19 +170,14 @@ body {
 }
 
 .card_kaveri_noti {
-    /* background-color: black !important; */
     opacity: 0.5;
     margin-top: 10px;
     height: 90px;
 }
 
-.card_content_right_noti {
-    /* color: #ffffff; */
-}
 
 .kaveri_noti {
     font-size: 15px !important;
-    /* color: #ffffff; */
     margin-bottom: 20px !important;
 }
 
@@ -214,7 +193,6 @@ body {
 }
 
 .card_content_right_order {
-    /* color: #ffffff; */
     margin: 0px 10px;
 }
 
@@ -245,7 +223,6 @@ body {
 .btn_grid_noti {
     border-radius: 10px;
     margin-right: 20px !important;
-    /* background-color: rgb(6 6 6); */
     opacity: 0.4;
 }
 
