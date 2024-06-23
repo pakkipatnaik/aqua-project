@@ -101,7 +101,7 @@ function App() {
         </Grid>
         <Grid container>
           <Grid className='sidebar_grid' lg={1.5} md={1} sm={1.5} xs={2}>
-            <Card className='s_card'>
+          <Card className="s_card">
               <CardContent className='s_card_content'>
                 <Grid>
                   <MenuIcon className='s_card_icon' onClick={toggleSidebar} />
